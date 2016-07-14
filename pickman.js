@@ -4,6 +4,7 @@ function ShowSelectedData(){
         //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/01.mp3" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
+        document.write('※このページは開いた瞬間に客入れ音楽が流れます')
         //フライヤーを載せる
         document.write('<img src="01.jpg" width="500" height="700"><br>');
         //公演情報
