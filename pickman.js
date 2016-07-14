@@ -1,7 +1,12 @@
 function ShowSelectedData(){
     var show = document.database.play.value;
     if(show==1){
+        //BGMを流す
+        document.write('<audio id="Name" preload="auto"><source src="audio/01.mp3" type="audio/mp3"></audio>') ;
+        document.write('<script>document.getElementById("Name").play();</script> ');
+        //フライヤーを載せる
         document.write('<img src="1.jpg" width="500" height="700"><br>');
+        //公演情報
         document.write('<h3>◇あらすじ</h3><br>');
         document.write('<h4>人気のない惑星のお屋敷に<br>');
         document.write('女の子と二人の従者だけが<br>');
@@ -18,7 +23,28 @@ function ShowSelectedData(){
         document.write('舞台美術 　加藤真央・尾林太郎・木村智矩・木村美帆・瀧岡美咲・野宮傑<br>')
         document.write('音響 　齋藤大樹・境大軌・野宮傑<br>照明　 山本希<br>');
         document.write('宣伝美術 　頃末龍<br>衣裳　栗原朋子<br>広報　 山本希<br>制作　 白石響<br></h4>' );
+        //当日映像
+        document.write('<section id="youtube" class="bg-light-gray">');
+        document.write('<div class="container">');
+        document.write('<div class="row">');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<h2 class="section-heading">本番映像</h2></div>');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<h3 class="service-heading"><br/>Stage1</h3></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/_bc0GIXUUyM" frameborder="0" allowfullscreen></iframe></div>');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<h3 class="service-heading"><br/><br/>Stage2</h3></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/Bn1Ni-GoESY" frameborder="0" allowfullscreen></iframe></div>');
+        document.write('</div>');
+        document.write('</div>');
+        document.write('</section>');
     }
+    
     else if(show==2){
         document.write('<img src="2.jpg" width="500" height="700"><br>');
         document.write('<h3>◇あらすじ</h3><br>');
