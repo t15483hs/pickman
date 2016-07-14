@@ -100,11 +100,11 @@ function ShowSelectedData(){
         document.write('高橋陽・田村重人・吉井優香・加藤真央<br>');
         document.write('木村智矩・栗原朋子・斎藤悠人</h4><br>');
         document.write('<h3>◇スタッフ</h3><br>');
-        document.write('h4>舞台監督　大川愛梨沙<br>');
+        document.write('<h4>舞台監督　大川愛梨沙<br>');
         document.write('舞台美術　北川理奈・加藤真央・瀧岡美咲<br>');
         document.write('照明　岡田彬彦・山本希<br>');
         document.write('音響　齋藤大樹・高橋陽<br>');
         document.write('制作　吉井優香・大川愛梨沙・笹本健斗・山本希<br>');
-        document.write('宣伝美術　若杉亮介・川中萌<br>')
+        document.write('宣伝美術　若杉亮介・川中萌</h4>')
     }
 }
