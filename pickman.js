@@ -23,6 +23,7 @@ function ShowSelectedData(){
         document.write('舞台美術 　加藤真央・尾林太郎・木村智矩・木村美帆・瀧岡美咲・野宮傑<br>')
         document.write('音響 　齋藤大樹・境大軌・野宮傑<br>照明　 山本希<br>');
         document.write('宣伝美術 　頃末龍<br>衣裳　栗原朋子<br>広報　 山本希<br>制作　 白石響<br></h4>' );
+        //BGMを止める
         //当日映像
         document.write('<section id="youtube" class="bg-light-gray">');
         document.write('<div class="container">');
