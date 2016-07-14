@@ -1,12 +1,12 @@
 function ShowSelectedData(){
     var show = document.database.play.value;
-    if(show==1){
+    if(show==01){
         //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/01.mp3" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
         //フライヤーを載せる
-        document.write('<img src="1.jpg" width="500" height="700"><br>');
         //公演情報
+        document.write('<img src="01.jpg" width="500" height="700"><br>');
         document.write('<h3>◇あらすじ</h3><br>');
         document.write('<h4>人気のない惑星のお屋敷に<br>');
         document.write('女の子と二人の従者だけが<br>');
@@ -44,9 +44,8 @@ function ShowSelectedData(){
         document.write('</div>');
         document.write('</section>');
     }
-    
-    else if(show==2){
-        document.write('<img src="2.jpg" width="500" height="700"><br>');
+    else if(show==02){
+        document.write('<img src="02.jpg" width="500" height="700"><br>');
         document.write('<h3>◇あらすじ</h3><br>');
         document.write('<h4><子供の頃からの親友だったぬいぐるみを母に捨てられてしまったハルマは友達のいない高校二年生。<br>');
         document.write('母を心配させないため、日々友達を作ろうと試行錯誤するハルマの前にある日謎の男が現れてこう言った。「君の願いを叶えてあげる」<br>')
@@ -57,9 +56,26 @@ function ShowSelectedData(){
         document.write('<h3>◇スタッフ</h3><h4>舞台監督　 瀧岡美咲<br>');
         document.write('舞台美術 　加藤真央・尾林太郎・木村智矩・木村美帆・瀧岡美咲・野宮傑<br>')
         document.write('音響 　齋藤大樹・境大軌・野宮傑<br>照明　 山本希<br>');
-        document.write('宣伝美術 　頃末龍<br>衣裳　栗原朋子<br>広報　 山本希<br>制作　 白石響<br></h4>' );
+        document.write('宣伝美術 　頃末龍<br>衣裳　栗原朋子<br>広報　 山本希<br>制作　 白石響</h4><br>' );
         }
-    else if(show==3){
-        document.write('<img src="3.jpg" width="500" height="700">');
+    else if(show==03){
+        document.write('<img src="03.jpg" width="500" height="700"><br>');
+        document.write('<h3>◇あらすじ</h3><br>');
+        document.write('<h4>人の上に人がいて、人の下にも人がいる。<br>');
+        document.write('そんな世知辛い現実世界で、 <br>');    
+        document.write('原発級のハッピー野郎が<br>');
+        document.write('原爆級のサゲマン少女に恋をした！<br>');
+        document.write('豊かな暮らしは幸せか、貧乏人は不幸せか？<br>');
+        document.write('……そもそも、幸せって何だっけ？</h4><br>');
+        document.write('<h3>◇脚本・演出</h3><br><h4>斎藤悠人</h4><br>')
+        document.write('<h3>◇出演</h3><br><h4>加藤真央・川中萌・貴福雄志郎・木村智矩<br>');
+        document.write('頃末龍・笹本健斗・白石響</h4><br>');
+        document.write('<h3>◇スタッフ</h3><h4>舞台監督　 瀧岡美咲<br>');
+        document.write('舞台監督補佐　木村智矩')
+        document.write('舞台美術 　大川愛梨沙・加藤真央・北川里奈・瀧岡美咲<br>')
+        document.write('音響 　齋藤大樹<br>照明　 山本希・岡田彬彦<br>');
+        document.write('宣伝美術 　川中萌<br>制作　 山本希<br>' );
+        document.write('制作補佐　栗原朋子</h4>');
+
     }
 }
