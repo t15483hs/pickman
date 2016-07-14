@@ -12,8 +12,8 @@ function ShowSelectedData(){
         document.write('<script>document.getElementById("Name").play();</script> ');
         //注意文
         document.write('※このページは開いた瞬間に客入れ音楽が流れます')
-        document.write('<input type="button" value="客入れ音楽を止める" Onclick="stop();"><br>')
         //BGMを止める
+        document.write('<input type="button" value="客入れ音楽を止める" Onclick="stop();"><br>')
         //フライヤーを載せる
         document.write('<img src="01.jpg" width="500" height="700"><br>');
         //公演情報
@@ -58,6 +58,10 @@ function ShowSelectedData(){
          //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/02.mp3" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
+        //注意文
+        document.write('※このページは開いた瞬間に客入れ音楽が流れます')
+        //BGMを止める
+        document.write('<input type="button" value="客入れ音楽を止める" Onclick="stop();"><br>')
         //フライヤーを載せる
         document.write('<img src="02.jpg" width="500" height="700"><br>');
         //公演情報
@@ -72,7 +76,6 @@ function ShowSelectedData(){
         document.write('舞台美術 　加藤真央・尾林太郎・木村智矩・木村美帆・瀧岡美咲・野宮傑<br>')
         document.write('音響 　齋藤大樹・境大軌・野宮傑<br>照明　 山本希<br>');
         document.write('宣伝美術 　頃末龍<br>衣裳　栗原朋子<br>広報　 山本希<br>制作　 白石響</h4><br>' );
-        //BGMを止める
         //当日映像
         document.write('<section id="youtube" class="bg-light-gray">');
         document.write('<div class="container">');
@@ -98,6 +101,10 @@ function ShowSelectedData(){
          //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/03.mp3" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
+        //注意文
+        document.write('※このページは開いた瞬間に客入れ音楽が流れます')
+        //BGMを止める
+        document.write('<input type="button" value="客入れ音楽を止める" Onclick="stop();"><br>')
         //フライヤーを載せる
         document.write('<img src="03.jpg" width="500" height="700"><br>'); 
         //公演情報
@@ -144,6 +151,10 @@ function ShowSelectedData(){
          //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/04.mp3" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
+        //注意文
+        document.write('※このページは開いた瞬間に客入れ音楽が流れます')
+        //BGMを止める
+        document.write('<input type="button" value="客入れ音楽を止める" Onclick="stop();"><br>')
         //フライヤーを載せる
         document.write('<img src="04.jpg" width="500" height="700"><br>');
         //公演情報
