@@ -5,8 +5,8 @@ function ShowSelectedData(){
         document.write('<audio id="Name" preload="auto"><source src="audio/01.mp3" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
         //フライヤーを載せる
-        //公演情報
         document.write('<img src="01.jpg" width="500" height="700"><br>');
+        //公演情報
         document.write('<h3>◇あらすじ</h3><br>');
         document.write('<h4>人気のない惑星のお屋敷に<br>');
         document.write('女の子と二人の従者だけが<br>');
@@ -46,8 +46,11 @@ function ShowSelectedData(){
         document.write('</section>');
     }
     else if(show==02){
+         //BGMを流す
+        document.write('<audio id="Name" preload="auto"><source src="audio/02.mp3" type="audio/mp3"></audio>') ;
+        document.write('<script>document.getElementById("Name").play();</script> ');
+        //フライヤーを載せる
         document.write('<img src="02.jpg" width="500" height="700"><br>');
-        // フライヤーを表示
         //公演情報
         document.write('<h3>◇あらすじ</h3><br>');
         document.write('<h4><子供の頃からの親友だったぬいぐるみを母に捨てられてしまったハルマは友達のいない高校二年生。<br>');
@@ -60,10 +63,34 @@ function ShowSelectedData(){
         document.write('舞台美術 　加藤真央・尾林太郎・木村智矩・木村美帆・瀧岡美咲・野宮傑<br>')
         document.write('音響 　齋藤大樹・境大軌・野宮傑<br>照明　 山本希<br>');
         document.write('宣伝美術 　頃末龍<br>衣裳　栗原朋子<br>広報　 山本希<br>制作　 白石響</h4><br>' );
-        }
+        //BGMを止める
+        //当日映像
+        document.write('<section id="youtube" class="bg-light-gray">');
+        document.write('<div class="container">');
+        document.write('<div class="row">');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<h2 class="section-heading">本番映像</h2></div>');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<h3 class="service-heading"><br/>Stage1</h3></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/-gQbLLPVjVA" frameborder="0" allowfullscreen></iframe></div>');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<h3 class="service-heading"><br/><br/>Stage2</h3></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/UEUb3ZjNHqw" frameborder="0" allowfullscreen></iframe></div>');
+        document.write('</div>');
+        document.write('</div>');
+        document.write('</section>');
+    }
     else if(show==03){
-        document.write('<img src="03.jpg" width="500" height="700"><br>');
-        //フライヤーを表示
+         //BGMを流す
+        document.write('<audio id="Name" preload="auto"><source src="audio/03.mp3" type="audio/mp3"></audio>') ;
+        document.write('<script>document.getElementById("Name").play();</script> ');
+        //フライヤーを載せる
+        document.write('<img src="03.jpg" width="500" height="700"><br>'); 
         //公演情報
         document.write('<h3>◇あらすじ</h3><br>');
         document.write('<h4>人の上に人がいて、人の下にも人がいる。<br>');
@@ -76,15 +103,40 @@ function ShowSelectedData(){
         document.write('<h3>◇出演</h3><br><h4>加藤真央・川中萌・貴福雄志郎・木村智矩<br>');
         document.write('頃末龍・笹本健斗・白石響</h4><br>');
         document.write('<h3>◇スタッフ</h3><h4>舞台監督　 瀧岡美咲<br>');
-        document.write('舞台監督補佐　木村智矩')
+        document.write('舞台監督補佐　木村智矩<br>')
         document.write('舞台美術 　大川愛梨沙・加藤真央・北川里奈・瀧岡美咲<br>')
         document.write('音響 　齋藤大樹<br>照明　 山本希・岡田彬彦<br>');
         document.write('宣伝美術 　川中萌<br>制作　 山本希<br>' );
         document.write('制作補佐　栗原朋子</h4>');
+        //BGMを止める
+        //当日映像
+        document.write('<section id="youtube" class="bg-light-gray">');
+        document.write('<div class="container">');
+        document.write('<div class="row">');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<h2 class="section-heading">本番映像</h2></div>');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<h3 class="service-heading"><br/>Stage1</h3></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://drive.google.com/file/d/0ByGlB98ttM5jY0JpWUZxbGlvbm8/view?usp=sharing" frameborder="0" allowfullscreen></iframe></div>');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<h3 class="service-heading"><br/><br/>Stage2</h3></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://drive.google.com/open?id=0ByGlB98ttM5jQW9JUHBGeWgyMUk" frameborder="0" allowfullscreen></iframe></div>');
+        document.write('</div>');
+        document.write('</div>');
+        document.write('</section>');
     }
+    
     else if(show==04){
+         //BGMを流す
+        document.write('<audio id="Name" preload="auto"><source src="audio/04.mp3" type="audio/mp3"></audio>') ;
+        document.write('<script>document.getElementById("Name").play();</script> ');
+        //フライヤーを載せる
         document.write('<img src="04.jpg" width="500" height="700"><br>');
-        //フライヤーを表示
         //公演情報
         document.write('<h3>あらすじ</h3><br>');
         document.write('<h4>ーだけど、キミは来ないー<br><br> ')
@@ -106,5 +158,26 @@ function ShowSelectedData(){
         document.write('音響　齋藤大樹・高橋陽<br>');
         document.write('制作　吉井優香・大川愛梨沙・笹本健斗・山本希<br>');
         document.write('宣伝美術　若杉亮介・川中萌</h4>')
+        //BGMを止める
+        //当日映像
+        document.write('<section id="youtube" class="bg-light-gray">');
+        document.write('<div class="container">');
+        document.write('<div class="row">');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<h2 class="section-heading">本番映像</h2></div>');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<h3 class="service-heading"><br/>Stage1</h3></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/_bc0GIXUUyM" frameborder="0" allowfullscreen></iframe></div>');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<h3 class="service-heading"><br/><br/>Stage2</h3></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/Bn1Ni-GoESY" frameborder="0" allowfullscreen></iframe></div>');
+        document.write('</div>');
+        document.write('</div>');
+        document.write('</section>');
     }
 }
