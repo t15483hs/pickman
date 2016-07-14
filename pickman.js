@@ -46,6 +46,8 @@ function ShowSelectedData(){
     }
     else if(show==02){
         document.write('<img src="02.jpg" width="500" height="700"><br>');
+        // フライヤーを表示
+        //公演情報
         document.write('<h3>◇あらすじ</h3><br>');
         document.write('<h4><子供の頃からの親友だったぬいぐるみを母に捨てられてしまったハルマは友達のいない高校二年生。<br>');
         document.write('母を心配させないため、日々友達を作ろうと試行錯誤するハルマの前にある日謎の男が現れてこう言った。「君の願いを叶えてあげる」<br>')
@@ -60,6 +62,8 @@ function ShowSelectedData(){
         }
     else if(show==03){
         document.write('<img src="03.jpg" width="500" height="700"><br>');
+        //フライヤーを表示
+        //公演情報
         document.write('<h3>◇あらすじ</h3><br>');
         document.write('<h4>人の上に人がいて、人の下にも人がいる。<br>');
         document.write('そんな世知辛い現実世界で、 <br>');    
@@ -76,6 +80,30 @@ function ShowSelectedData(){
         document.write('音響 　齋藤大樹<br>照明　 山本希・岡田彬彦<br>');
         document.write('宣伝美術 　川中萌<br>制作　 山本希<br>' );
         document.write('制作補佐　栗原朋子</h4>');
-
+    }
+    else if(show==04){
+        document.write('<img src="04.jpg" width="500" height="700"><br>');
+        //フライヤーを表示
+        //公演情報
+        document.write('<h3>あらすじ</h3><br>');
+        document.write('<h4>ーだけど、キミは来ないー<br><br> ')
+        document.write('アスファルトに咲くスイセンを抜いて花占いするぼくちゃんは、<br><br>');
+        document.write('何回やっても何回やっても「キライ」にしかなりませんでした！ファック！<br><br>');
+        document.write('鏡をナイフに持ち替えて、<br>ぼくらのペシミズムは加速する！！<br><br>');
+        document.write('恋、考えたヤツ、殺す！！！！</h4><br>');
+        document.write('<h3>◇脚本</h3><br><h4>小野亮</h4><br>');
+        document.write('<h3>◇演出</h3><br><h4>梅澤健二郎</h4><br>');
+        document.write('<h3>◇演出助手</h3><br><h4>赤間洸介・木村智矩</h4><br>');
+        document.write('<h3>◇出演</h3><br>');
+        document.write('<h4>赤間洸介・金澤卓哉・頃末龍・笹本健斗<br>');
+        document.write('高橋陽・田村重人・吉井優香・加藤真央<br>');
+        document.write('木村智矩・栗原朋子・斎藤悠人</h4><br>');
+        document.write('<h3>◇スタッフ</h3><br>');
+        document.write('h4>舞台監督　大川愛梨沙<br>');
+        document.write('舞台美術　北川理奈・加藤真央・瀧岡美咲<br>');
+        document.write('照明　岡田彬彦・山本希<br>');
+        document.write('音響　齋藤大樹・高橋陽<br>');
+        document.write('制作　吉井優香・大川愛梨沙・笹本健斗・山本希<br>');
+        document.write('宣伝美術　若杉亮介・川中萌<br>')
     }
 }
