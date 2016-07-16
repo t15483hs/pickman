@@ -6,6 +6,7 @@ function stop(){
 }
 function ShowSelectedData(){
     var show = document.database.play.value;
+    document.write('<script src="pickman.js"></script>')
     if(show==01){
         //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/01.wav" type="audio/mp3"></audio>') ;
@@ -136,12 +137,12 @@ function ShowSelectedData(){
         document.write('<h2 class="section-heading">本番映像</h2></div>');
         document.write('<div class="col-lg-12 text-center">');
         document.write('<h3 class="service-heading"><br/>Stage1</h3></div>');
-        document.write('<div class="col-lg-12 text-center"><iframe src="https://drive.google.com/file/d/0ByGlB98ttM5jY0JpWUZxbGlvbm8/preview" width="640" height="480"></iframe></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://drive.google.com/file/d/0ByGlB98ttM5jY0JpWUZxbGlvbm8/view?usp=sharing" frameborder="0" allowfullscreen></iframe></div>');
         document.write('<br/>');
         document.write('<br/>');
         document.write('<div class="col-lg-12 text-center">');
         document.write('<h3 class="service-heading"><br/><br/>Stage2</h3></div>');
-        document.write('<div class="col-lg-12 text-center"><iframe src="https://drive.google.com/file/d/0ByGlB98ttM5jQW9JUHBGeWgyMUk/preview" width="640" height="480"></iframe></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://drive.google.com/open?id=0ByGlB98ttM5jQW9JUHBGeWgyMUk" frameborder="0" allowfullscreen></iframe></div>');
         document.write('</div>');
         document.write('</div>');
         document.write('</section>');
