@@ -165,6 +165,10 @@ function ShowSelectedData(){
         document.write('<br/>');
         document.write('<br/>');
         document.write('</section>');
+        //アルバム
+        document.write('<form>');
+        document.write('<input type="button" value="公演アルバムはこちら" onclick= window.open("https://goo.gl/photos/FdGanyx98QAgRuQWA")>');
+　　　　 document.write('</form>');
         //戻るボタン
         document.write('<br/>');
         document.write('<br/>');
@@ -224,7 +228,7 @@ function ShowSelectedData(){
         document.write('</section>');
         //アルバム
         document.write('<form>');
-        document.write('<input type="button" value="公演アルバムはこちら" onclick= "window.open ("https://goo.gl/photos/GpD9JCdwjykZ1ZbQ6")">');
+        document.write('<input type="button" value="公演アルバムはこちら" onclick= window.open("https://goo.gl/photos/GpD9JCdwjykZ1ZbQ6")>');
 　　　　 document.write('</form>');
         //戻るボタン
         document.write('<br/>');
