@@ -301,4 +301,69 @@ function ShowSelectedData(){
         document.write('<input type="button" value="トップページへ"login.html">');
         document.write('</form>');
     }
+     else if(show==06){
+        //BGMを流す
+        document.write('<audio id="Name" preload="auto"><source src="audio/06.mp3" type="audio/mp3"></audio>') ;
+        document.write('<script>document.getElementById("Name").play();</script> ');
+        //注意文
+        document.write('※このページは開いた瞬間に客入れ音楽が流れます')
+        //BGMを止める
+        document.write('<input type="button" value="客入れ音楽を止める" Onclick="stop();"><br>')
+        //フライヤーを載せる
+        document.write('<img src="06.jpg" width="700" height="500"><br>');
+        //公演情報
+        document.write('<h3>あらすじ</h3><br>');
+        document.write('<h4>きざんで いためて もりつけて<br>');
+        document.write('<h4>そして食した数ある想いは<br>');
+        document.write('<h4>いまじゃお鍋の底にたまった<br>');
+        document.write('<h4>消化されない食べ残し<br>');
+        document.write('<h4>そんな想いをにこみにつめて<br>');
+        document.write('<h4>親子の白・茶が混ざり合い<br>');
+        document.write('<h4>時を超えて記憶を超えて<br>');
+        document.write('<h4>また食卓によみがえる<br>');
+        document.write('<h4>カレーをめぐる家族と家族の<br>');
+        document.write('<h4>奇想天外グルメ劇<br>');
+        document.write('<h4>スプーン片手に心をお皿に<br>');
+        document.write('<h4> おいしい戯曲をくいつくせ！<br><br><br>');
+        document.write('<h3>◇脚本・演出</h3><br><h4> 金澤卓哉</h4><br>');
+        document.write('<h3>◇演出助手</h3><br><h4>笹本健斗 吉井優香</h4><br>');
+        document.write('<h3>◇出演</h3><br>');
+        document.write('<h4>赤間洸介・木村智矩・頃末龍・齋藤大樹<br>');
+        document.write('笹本健斗・成田明未・丸橋慧・山本希・吉井優香<br>');
+        document.write('<h3>◇スタッフ</h3><br>');
+        document.write('<h4>舞台監督　大川愛梨沙<br>');
+        document.write('舞台美術　北川理奈・今西淳樹・加藤真央・木村智矩・栗原朋子<br>');
+        document.write('照明　岡田彬彦・本田晃之<br>');
+        document.write('音響　梅澤健二郎・佐藤まい<br>');
+        document.write('制作　新居真夏・山本希<br>');
+        document.write('宣伝美術　高野菜々子<br>')
+        document.write('宣伝美術補佐　吉井優香</h4>')
+        //当日映像
+        document.write('<section id="youtube" class="bg-light-gray">');
+        document.write('<div class="container">');
+        document.write('<div class="row">');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<h2 class="section-heading">本番映像</h2></div>');
+        document.write('<div class="col-lg-12 text-center">');
+        document.write('<h3 class="service-heading"><br/>Stage1</h3></div>');
+        document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/jVLlqxUmmJs" frameborder="0" allowfullscreen></iframe></div>');
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('</section>');
+        //アルバム
+        document.write('<form>');
+        document.write('<input type="button" value="公演アルバムはこちら" onclick= window.open("https://goo.gl/photos/pxiPYfHQ3UNwZ45b9")>');
+　　　　 document.write('</form>');
+        //戻るボタン
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<form>');
+        document.write('<input type="button" value="戻る" onclick="history.back()">');
+        document.write('<input type="button" value="更新" onclick="location.reload(true)">');
+        document.write('<input type="button" value="トップページへ"login.html">');
+        document.write('</form>');
+    }
 }
