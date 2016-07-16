@@ -39,21 +39,27 @@ function ShowSelectedData(){
         document.write('<div class="container">');
         document.write('<div class="row">');
         document.write('<div class="col-lg-12 text-center">');
-        document.write('<br/>');
-        document.write('<br/>');
-        document.write('<br/>');
+        document.write('<br>');
+        document.write('<br>');
+        document.write('<br>');
         document.write('<h2 class="section-heading">本番映像</h2></div>');
         document.write('<div class="col-lg-12 text-center">');
         document.write('<h3 class="service-heading"><br/>Stage1</h3></div>');
         document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/_bc0GIXUUyM" frameborder="0" allowfullscreen></iframe></div>');
-        document.write('<br/>');
-        document.write('<br/>');
+        document.write('&nbsp;<br/>');
+        document.write('&nbsp;<br/>');
         document.write('<div class="col-lg-12 text-center">');
         document.write('<h3 class="service-heading"><br/><br/>Stage2</h3></div>');
         document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/Bn1Ni-GoESY" frameborder="0" allowfullscreen></iframe></div>');
         document.write('</div>');
         document.write('</div>');
         document.write('</section>');
+        //戻るボタン
+        document.write('<form>');
+        document.write('<input type="button" value="戻る" onclick="history.back()">');
+        document.write('<input type="button" value="更新" onclick="location.reload(true)">');
+        document.write('<input type="button" value="トップページへ"login.html">');
+        document.write('</form>');
     }
     else if(show==02){
          //BGMを流す
@@ -97,6 +103,13 @@ function ShowSelectedData(){
         document.write('</div>');
         document.write('</div>');
         document.write('</section>');
+        //戻るボタン
+        document.write('<br/>');
+        document.write('<br/>');document.write('<form>');
+        document.write('<input type="button" value="戻る" onclick="history.back()">');
+        document.write('<input type="button" value="更新" onclick="location.reload(true)">');
+        document.write('<input type="button" value="トップページへ"login.html">');
+        document.write('</form>');
     }
     else if(show==03){
          //BGMを流す
@@ -146,6 +159,14 @@ function ShowSelectedData(){
         document.write('</div>');
         document.write('</div>');
         document.write('</section>');
+        //戻るボタン
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<form>');
+        document.write('<input type="button" value="戻る" onclick="history.back()">');
+        document.write('<input type="button" value="更新" onclick="location.reload(true)">');
+        document.write('<input type="button" value="トップページへ"login.html">');
+        document.write('</form>');
     }
     
     else if(show==04){
@@ -200,5 +221,13 @@ function ShowSelectedData(){
         document.write('</div>');
         document.write('</div>');
         document.write('</section>');
+        //戻るボタン
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<form>');
+        document.write('<input type="button" value="戻る" onclick="history.back()">');
+        document.write('<input type="button" value="更新" onclick="location.reload(true)">');
+        document.write('<input type="button" value="トップページへ"login.html">');
+        document.write('</form>');
     }
 }
