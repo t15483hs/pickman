@@ -30,10 +30,15 @@ function ShowSelectedData(){
         document.write('<h3>◇脚本</h3><br><h4>白石響</h4><br>');
         document.write('<h3>◇演出</h3><br><h4>頃末龍</h4><br>');
         document.write('<h3>◇出演</h3><br><h4>境大軌・村上航・本岡万侑・山本静香</h4></br>')
-        document.write('<h3>◇スタッフ</h3><h4>舞台監督　 瀧岡美咲<br>');
+        document.write('<h3>◇スタッフ</h3>');
+        document.write('<h4>舞台監督　 瀧岡美咲<br>');
         document.write('舞台美術 　加藤真央・尾林太郎・木村智矩・木村美帆・瀧岡美咲・野宮傑<br>')
-        document.write('音響 　齋藤大樹・境大軌・野宮傑<br>照明　 山本希<br>');
-        document.write('宣伝美術 　頃末龍<br>衣裳　栗原朋子<br>広報　 山本希<br>制作　 白石響<br></h4>' );
+        document.write('音響 　齋藤大樹・境大軌・野宮傑<br>');
+        document.write('照明　 山本希<br>');
+        document.write('宣伝美術 　頃末龍<br>');
+        document.write('衣裳　栗原朋子<br>');
+        document.write('広報　 山本希<br>');
+        document.write('制作　 白石響<br></h4>' );
         //当日映像
         document.write('<section id="youtube" class="bg-light-gray">');
         document.write('<div class="container">');
@@ -68,7 +73,7 @@ function ShowSelectedData(){
         document.write('</form>');
     }
     else if(show==02){
-         //BGMを流す
+        //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/02.wav" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
         //注意文
@@ -79,18 +84,21 @@ function ShowSelectedData(){
         document.write('<img src="02.jpg" width="500" height="700"><br>');
         //公演情報
         document.write('<h3>◇あらすじ</h3><br>');
-        document.write('<h4><子供の頃からの親友だったぬいぐるみを母に捨てられてしまったハルマは友達のいない高校二年生。<br>');
+        document.write('<h4>子供の頃からの親友だったぬいぐるみを母に捨てられてしまったハルマは友達のいない高校二年生。<br>');
         document.write('母を心配させないため、日々友達を作ろうと試行錯誤するハルマの前にある日謎の男が現れてこう言った。「君の願いを叶えてあげる」<br>')
         document.write('そこから始まるハルマの短い夏の物語。</h4><br>');
         document.write('<h3>◇脚本・演出</h3><br><h4>赤間洸介</h4><br>');
         document.write('<h3>◇出演</h3><br><h4>岩城智子・木村智矩・木村美帆・熊谷啓孝<br>');
         document.write('斎藤悠人・田村重人・星野礼馬・吉井優香</h4><br>');
-        document.write('<h3>◇スタッフ</h3><h4>舞台監督　 瀧岡美咲<br>');
+        document.write('<h3>◇スタッフ</h3>');
+        document.write('<h4>舞台監督　 瀧岡美咲<br>');
         document.write('舞台美術 　加藤真央・尾林太郎・木村智矩・木村美帆・瀧岡美咲・野宮傑<br>')
-        document.write('音響 　齋藤大樹・境大軌・野宮傑<br>照明　 山本希<br>');
-        document.write('宣伝美術 　頃末龍<br>衣裳　栗原朋子<br>広報　 山本希<br>制作　 白石響</h4><br>' );
-        //BGMを止める
-        document.write('<input type="button" value="客入れ音楽を止める" Onclick="stop();"><br>')
+        document.write('音響 　齋藤大樹・境大軌・野宮傑<br>');
+        document.write('照明　 山本希<br>');
+        document.write('宣伝美術 　頃末龍<br>');
+        document.write('衣裳　栗原朋子<br>');
+        document.write('広報　 山本希<br>');
+        document.write('制作　 白石響<br></h4>' );
         //当日映像
         document.write('<section id="youtube" class="bg-light-gray">');
         document.write('<div class="container">');
@@ -230,7 +238,7 @@ function ShowSelectedData(){
         document.write('<br/>');
         document.write('<h2 class="section-heading">公演CM</h2></div>');
         document.write('<div class="col-lg-12 text-center">');
-        document.write('<h3 class="service-heading"><br/>Stage1</h3></div>');
+        document.write('<h3 class="service-heading"><br/>CM</h3></div>');
         document.write('<div class="col-lg-12 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/4j4P2JrfIj4" frameborder="0" allowfullscreen></iframe></div>');
         document.write('<br/>');
         document.write('<br/>');
