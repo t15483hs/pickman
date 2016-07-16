@@ -56,6 +56,10 @@ function ShowSelectedData(){
         document.write('<br/>');
         document.write('<br/>');
         document.write('</section>');
+        //アルバム
+        document.write('<form>');
+        document.write('<input type="button" value="公演アルバムはこちら" onclick= window.open("https://goo.gl/photos/KF2HBgCQkW9bakPg7")>');
+　　　　 document.write('</form>');
         //戻るボタン
         document.write('<form>');
         document.write('<input type="button" value="戻る" onclick="history.back()">');
@@ -107,6 +111,10 @@ function ShowSelectedData(){
         document.write('<br/>');
         document.write('<br/>');
         document.write('</section>');
+        //アルバム
+        document.write('<form>');
+        document.write('<input type="button" value="公演アルバムはこちら" onclick= window.open("https://goo.gl/photos/KF2HBgCQkW9bakPg7")>');
+　　　　 document.write('</form>');
         //戻るボタン
         document.write('<br/>');
         document.write('<br/>');document.write('<form>');
@@ -210,7 +218,6 @@ function ShowSelectedData(){
         document.write('音響　齋藤大樹・高橋陽<br>');
         document.write('制作　吉井優香・大川愛梨沙・笹本健斗・山本希<br>');
         document.write('宣伝美術　若杉亮介・川中萌</h4>')
-        //BGMを止める
         //当日映像
         document.write('<section id="youtube" class="bg-light-gray">');
         document.write('<div class="container">');
@@ -240,36 +247,56 @@ function ShowSelectedData(){
         document.write('</form>');
     }
     else if(show==05){
-       document.write(' ※このページは開くと客入れ音楽が流れます <input type="button" value="客入れ音楽を止める" Onclick="stop()"><br>');
-       document.write('<img src="05.jpg" width="500" height="700"><br>');
-       document.write('<h3>◇あらすじ</h3><br>');
-       document.write('<h4>地獄×新春×野球×純愛<br>');
-       document.write('<br>');
-       document.write('<br>');
-       document.write('うっかり死んだ与太郎は、<br>');
-       document.write('<br>');
-       document.write('地獄のコンテスト出場者に。<br>');
-       document.write('<br>');
-       document.write('ただこの地獄、なんともおかしな場所のようで...<br>');
-       document.write('<br>');
-       document.write('<br>');
-       document.write('勝てば復活!負ければ成仏!?<br>');
-       document.write('<br>');
-       document.write('陰謀・策略入り乱れ、<br>');
-       document.write('<br>');
-       document.write('結局最後に勝つのは誰だ！</h4>');
-       document.write('<h3>◇脚本・演出</h3><br><h4>崎山貴文</h4><br>');
-       document.write('<h3>◇演出助手</h3><br><h4>北川理奈・梅澤健二郎</h4><br>');
-       document.write('<h3>出演者</h3><br>');
-       document.write('<h4>中野太ニ・栗原朋子・加藤瑶子・但野仁美<br>');
-       document.write('仲本花・吉井優香・金澤卓哉・平井政旭・田村重人・赤間洸介</h4><br>');
-       document.write('<h3>◇スタッフ</h3><br>');
-       document.write('<h4>舞台監督　新居真夏・今西淳樹・大川愛梨沙<br>');
-       document.write('舞台美術　井川浩輔・岩屋友理・加藤真央・瀧岡美咲<br>');
-       document.write('照明　岡田彬彦・福沢理紗<br>');
-       document.write('音響　長尾優紀・齋藤大樹<br>');
-       document.write('宣伝美術　熊本里彩・若杉亮介・吉井優香<br>');
-       document.write('制作　窪田哲朗・山本希<br>');
-       document.write('</h4>');
+        //BGMを流す
+        document.write('<audio id="Name" preload="auto"><source src="audio/05.mp3" type="audio/mp3"></audio>') ;
+        document.write('<script>document.getElementById("Name").play();</script> ');
+        //注意文
+        document.write('※このページは開いた瞬間に客入れ音楽が流れます')
+        //BGMを止める
+        document.write('<input type="button" value="客入れ音楽を止める" Onclick="stop();"><br>')
+        //フライヤーを載せる
+        document.write('<img src="05.jpg" width="500" height="700"><br>');
+        //公演情報
+        document.write('<h3>◇あらすじ</h3><br>');
+        document.write('<h4>地獄×新春×野球×純愛<br>');
+        document.write('<br>');
+        document.write('<br>');
+        document.write('うっかり死んだ与太郎は、<br>');
+        document.write('<br>');
+        document.write('地獄のコンテスト出場者に。<br>');
+        document.write('<br>');
+        document.write('ただこの地獄、なんともおかしな場所のようで...<br>');
+        document.write('<br>');
+        document.write('<br>');
+        document.write('勝てば復活!負ければ成仏!?<br>');
+        document.write('<br>');
+        document.write('陰謀・策略入り乱れ、<br>');
+        document.write('<br>');
+        document.write('結局最後に勝つのは誰だ！</h4>');
+        document.write('<h3>◇脚本・演出</h3><br><h4>崎山貴文</h4><br>');
+        document.write('<h3>◇演出助手</h3><br><h4>北川理奈・梅澤健二郎</h4><br>');
+        document.write('<h3>出演者</h3><br>');
+        document.write('<h4>中野太ニ・栗原朋子・加藤瑶子・但野仁美<br>');
+        document.write('仲本花・吉井優香・金澤卓哉・平井政旭・田村重人・赤間洸介</h4><br>');
+        document.write('<h3>◇スタッフ</h3><br>');
+        document.write('<h4>舞台監督　新居真夏・今西淳樹・大川愛梨沙<br>');
+        document.write('舞台美術　井川浩輔・岩屋友理・加藤真央・瀧岡美咲<br>');
+        document.write('照明　岡田彬彦・福沢理紗<br>');
+        document.write('音響　長尾優紀・齋藤大樹<br>');
+        document.write('宣伝美術　熊本里彩・若杉亮介・吉井優香<br>');
+        document.write('制作　窪田哲朗・山本希<br>');
+        document.write('</h4>');
+        //アルバム
+        document.write('<form>');
+        document.write('<input type="button" value="公演アルバムはこちら" onclick= window.open("https://goo.gl/photos/sMh6VX1M7R79jduC8")>');
+　　　　 document.write('</form>');
+        //戻るボタン
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<form>');
+        document.write('<input type="button" value="戻る" onclick="history.back()">');
+        document.write('<input type="button" value="更新" onclick="location.reload(true)">');
+        document.write('<input type="button" value="トップページへ"login.html">');
+        document.write('</form>');
     }
 }
