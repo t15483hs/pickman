@@ -73,6 +73,8 @@ function ShowSelectedData(){
         document.write('<script>document.getElementById("Name").play();</script> ');
         //注意文
         document.write('※このページは開いた瞬間に客入れ音楽が流れます')
+        //BGMを止める
+        document.write('<input type="button" value="客入れ音楽を止める" Onclick="stop();"><br>')
         //フライヤーを載せる
         document.write('<img src="02.jpg" width="500" height="700"><br>');
         //公演情報
