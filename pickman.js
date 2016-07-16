@@ -160,7 +160,6 @@ function ShowSelectedData(){
         document.write('音響 　齋藤大樹<br>照明　 山本希・岡田彬彦<br>');
         document.write('宣伝美術 　川中萌<br>制作　 山本希<br>' );
         document.write('制作補佐　栗原朋子</h4>');
-        //BGMを止める
         //当日映像
         document.write('<section id="youtube" class="bg-light-gray">');
         document.write('<div class="container">');
