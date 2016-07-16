@@ -239,4 +239,37 @@ function ShowSelectedData(){
         document.write('<input type="button" value="トップページへ"login.html">');
         document.write('</form>');
     }
+    else if(show==05){
+       document.write(' ※このページは開くと客入れ音楽が流れます <input type="button" value="客入れ音楽を止める" Onclick="stop()"><br>');
+       document.write('<img src="05.jpg" width="500" height="700"><br>');
+       document.write('<h3>◇あらすじ</h3><br>');
+       document.write('<h4>地獄×新春×野球×純愛<br>');
+       document.write('<br>');
+       document.write('<br>');
+       document.write('うっかり死んだ与太郎は、<br>');
+       document.write('<br>');
+       document.write('地獄のコンテスト出場者に。<br>');
+       document.write('<br>');
+       document.write('ただこの地獄、なんともおかしな場所のようで...<br>');
+       document.write('<br>');
+       document.write('<br>');
+       document.write('勝てば復活!負ければ成仏!?<br>');
+       document.write('<br>');
+       document.write('陰謀・策略入り乱れ、<br>');
+       document.write('<br>');
+       document.write('結局最後に勝つのは誰だ！</h4>');
+       document.write('<h3>◇脚本・演出</h3><br><h4>崎山貴文</h4><br>');
+       document.write('<h3>◇演出助手</h3><br><h4>北川理奈・梅澤健二郎</h4><br>');
+       document.write('<h3>出演者</h3><br>');
+       document.write('<h4>中野太ニ・栗原朋子・加藤瑶子・但野仁美<br>');
+       document.write('仲本花・吉井優香・金澤卓哉・平井政旭・田村重人・赤間洸介</h4><br>');
+       document.write('<h3>◇スタッフ</h3><br>');
+       document.write('<h4>舞台監督　新居真夏・今西淳樹・大川愛梨沙<br>');
+       document.write('舞台美術　井川浩輔・岩屋友理・加藤真央・瀧岡美咲<br>');
+       document.write('照明　岡田彬彦・福沢理紗<br>');
+       document.write('音響　長尾優紀・齋藤大樹<br>');
+       document.write('宣伝美術　熊本里彩・若杉亮介・吉井優香<br>');
+       document.write('制作　窪田哲朗・山本希<br>');
+       document.write('</h4>');
+    }
 }
