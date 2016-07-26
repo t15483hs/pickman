@@ -7,7 +7,7 @@ function stop(){
 function ShowSelectedData(){
     var show = document.database.play.value;
     document.write('<script src="pickman.js"></script>')
-    if(show==01){
+    if(show=="2016tana01"){
         //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/01.wav" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
@@ -72,7 +72,7 @@ function ShowSelectedData(){
         document.write('<input type="button" value="トップページへ"login.html">');
         document.write('</form>');
     }
-    else if(show==02){
+    else if(show=="2016tana02"){
         //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/02.wav" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
@@ -133,7 +133,7 @@ function ShowSelectedData(){
         document.write('<input type="button" value="トップページへ"login.html">');
         document.write('</form>');
     }
-    else if(show==03){
+    else if(show=="2016sinkan"){
          //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/03.mp3" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
@@ -196,7 +196,7 @@ function ShowSelectedData(){
         document.write('</form>');
     }
     
-    else if(show==04){
+    else if(show=="2015haru"){
          //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/04.mp3" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
@@ -255,7 +255,7 @@ function ShowSelectedData(){
         document.write('<input type="button" value="トップページへ"login.html">');
         document.write('</form>');
     }
-    else if(show==05){
+    else if(show=="2015bangai"){
         //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/05.mp3" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
@@ -308,7 +308,7 @@ function ShowSelectedData(){
         document.write('<input type="button" value="トップページへ"login.html">');
         document.write('</form>');
     }
-     else if(show==06){
+     else if(show=="2015aki"){
         //BGMを流す
         document.write('<audio id="Name" preload="auto"><source src="audio/06.mp3" type="audio/mp3"></audio>') ;
         document.write('<script>document.getElementById("Name").play();</script> ');
